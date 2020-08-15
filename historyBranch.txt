@@ -1,0 +1,92 @@
+    1  cd /workspace/F03; clear
+    2  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+    3  cd /workspace/F03; clear
+    4  cd /workspace/F03; clear
+    5  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+    6  cd /workspace/F03; clear
+    7  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+    8  cd /workspace/F03; clear
+    9  echo "# lab07" >> README.md
+   10  git init
+   11  git add README.md
+   12  git commit -m "first commit"
+   13  git config --global user.name "sain120"
+   14  git commit -m "first commit"
+   15  git config --global user.email "alejandro.camacho.arias@gmail.com"
+   16  git commit -m "first commit"
+   17  git remote add origin https://github.com/sain120/lab07.git
+   18  git push -u origin master
+   19  cd /workspace/F03; clear
+   20  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+   21  cd /workspace/F03; clear
+   22  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+   23  cd /workspace/F03; clear
+   24  git first commit -m "commit uno"
+   25  history
+   26  history > history.txt
+   27  git add .
+   28  git commit -m "second commit" 
+   29  git push
+   30  git add .
+   31  git commit -m "third commit" 
+   32  git push -u origin master
+   33  git pull
+   34  git checkout -b master2
+   35  git push origin master2
+   36  git brach a
+   37  git brach -a
+   38  git branch -a
+   39  git commit -m "cuarto commit"
+   40  git add .
+   41  git commit -m "cuarto commit"
+   42  git push origin master2
+   43  git add .
+   44  git commit -m "folder uploaded"
+   45  git push origin master2
+   46  mkdir -p "/workspace/F03/T0064";chmod -R 770 "/workspace/F03/T0064"
+   47  unzip -O cp949 /workspace//F03/T0064.zip -d /workspace//F03/T0064
+   48  find /workspace//F03//T0064 -type f -exec file -i "{}" \; | grep charset=iso | awk -F: '{print $1}'
+   49  cd /workspace/F03; clear
+   50  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+   51  cd /workspace/F03; clear
+   52  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+   53  cd /workspace/F03; clear
+   54  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+   55  cd /workspace/F03; clear
+   56  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+   57  cd /workspace/F03; clear
+   58  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+   59  cd /workspace/F03; clear
+   60  npm start
+   61  cd /workspace/F03; clear
+   62  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+   63  cd /workspace/F03; clear
+   64  export LANG=en_US.UTF-8;export LANGUAGE=en_US.UTF-8;locale-gen;source ~/.profile; [ ! -f ~/.custom_env ] || source ~/.custom_env; clear;
+   65  cd /workspace/F03; clear
+   66  npm start
+   67  git add .
+   68  gir commit -m "F03 to upload to heroku"
+   69  git commit -m "F03 to upload to heroku"
+   70  history
+   71  git push -u origin master2
+   72  heroku login
+   73  heroku apps
+   74  heroku create f03-sos1920
+   75  git remote -v
+   76  git push heroku master2:master
+   77  npm start
+   78  history
+   79  history > historyHeroku.txt
+   80  git add .
+   81  git commit -m "after heroku"
+   82  git push -u origin master2
+   83  git pull
+   84  git checkout -b master3
+   85  push origin master3
+   86  git push origin master3
+   87  git branch -a
+   88  git add .
+   89  git commit -m "branch master3"
+   90  git push origin master3
+   91  history
+   92  history > history.txt
